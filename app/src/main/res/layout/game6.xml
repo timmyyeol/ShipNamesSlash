@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdfdfe"
+    tools:context="com.timmyyeol.shipnamesslash.GameActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textAllCaps="true"
+        android:textSize="28sp"
+        app:layout_marginTopPercent="2.5%" />
+
+    <Button
+        android:id="@+id/button1"
+        android:background="@drawable/round_red"
+        app:layout_heightPercent="7%"
+        android:textColor="#000000"
+        android:onClick="btn1Click"
+        app:layout_marginLeftPercent="12%"
+        app:layout_marginTopPercent="89%"
+        android:textSize="30sp"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/button2"
+        android:background="@drawable/round_orange"
+        app:layout_heightPercent="7%"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:onClick="btn2Click"
+        app:layout_marginLeftPercent="25%"
+        app:layout_marginTopPercent="89%"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/button3"
+        android:background="@drawable/round_yellow"
+        app:layout_heightPercent="7%"
+        app:layout_marginLeftPercent="38%"
+        app:layout_marginTopPercent="89%"
+        android:onClick="btn3Click"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/button4"
+        android:background="@drawable/round_green"
+        app:layout_heightPercent="7%"
+        app:layout_marginLeftPercent="51%"
+        android:textSize="30sp"
+        android:onClick="btn4Click"
+        android:textColor="#000000"
+        app:layout_marginTopPercent="89%"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/button5"
+        android:background="@drawable/round_blue"
+        app:layout_heightPercent="7%"
+        app:layout_marginLeftPercent="64%"
+        android:textSize="30sp"
+        app:layout_marginTopPercent="89%"
+        android:onClick="btn5Click"
+        android:textColor="#000000"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/button6"
+        android:background="@drawable/round_purple"
+        app:layout_heightPercent="7%"
+        android:textSize="30sp"
+        android:onClick="btn6Click"
+        app:layout_marginLeftPercent="77%"
+        android:textColor="#000000"
+        app:layout_marginTopPercent="89%"
+        app:layout_widthPercent="11%" />
+
+
+    <Button
+        android:id="@+id/button7"
+        android:background="@drawable/round_red"
+        app:layout_heightPercent="7%"
+        app:layout_marginLeftPercent="12%"
+        android:textSize="30sp"
+        android:onClick="btn7Click"
+        app:layout_marginTopPercent="81%"
+        android:textColor="#000000"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/button8"
+        android:background="@drawable/round_orange"
+        app:layout_heightPercent="7%"
+        android:textColor="#000000"
+        android:onClick="btn8Click"
+        android:textSize="30sp"
+        app:layout_marginLeftPercent="25%"
+        app:layout_marginTopPercent="81%"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/button9"
+        android:background="@drawable/round_yellow"
+        app:layout_heightPercent="7%"
+        app:layout_marginLeftPercent="38%"
+        android:onClick="btn9Click"
+        android:textColor="#000000"
+        app:layout_marginTopPercent="81%"
+        android:textSize="30sp"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/button10"
+        android:background="@drawable/round_green"
+        app:layout_heightPercent="7%"
+        android:textSize="30sp"
+        android:onClick="btn10Click"
+        app:layout_marginLeftPercent="51%"
+        android:textColor="#000000"
+        app:layout_marginTopPercent="81%"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/button11"
+        android:background="@drawable/round_blue"
+        app:layout_heightPercent="7%"
+        app:layout_marginLeftPercent="64%"
+        android:onClick="btn11Click"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_marginTopPercent="81%"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/button12"
+        android:background="@drawable/round_purple"
+        app:layout_heightPercent="7%"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        app:layout_marginLeftPercent="77%"
+        android:onClick="btn12Click"
+        app:layout_marginTopPercent="81%"
+        app:layout_widthPercent="11%" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        app:layout_heightPercent="50%"
+        app:layout_marginLeftPercent="8%"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="84%"
+        android:background="@drawable/button_no_corners"/>
+
+
+    <Button
+        android:id="@+id/buttonans1"
+        android:background="@drawable/img_round"
+        app:layout_heightPercent="7%"
+        android:textColor="#000000"
+        android:onClick="ans1Click"
+        app:layout_marginLeftPercent="12%"
+        android:textSize="30sp"
+        app:layout_marginTopPercent="67.5%"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/buttonans2"
+        android:background="@drawable/img_round"
+        app:layout_heightPercent="7%"
+        android:textSize="30sp"
+        android:onClick="ans2Click"
+        app:layout_marginLeftPercent="25%"
+        app:layout_marginTopPercent="67.5%"
+        android:textColor="#000000"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/buttonans3"
+        android:background="@drawable/img_round"
+        app:layout_heightPercent="7%"
+        android:onClick="ans3Click"
+        app:layout_marginLeftPercent="38%"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_marginTopPercent="67.5%"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/buttonans4"
+        android:background="@drawable/img_round"
+        app:layout_heightPercent="7%"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:onClick="ans4Click"
+        app:layout_marginLeftPercent="51%"
+        app:layout_marginTopPercent="67.5%"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/buttonans5"
+        android:background="@drawable/img_round"
+        app:layout_heightPercent="7%"
+        android:textColor="#000000"
+        app:layout_marginLeftPercent="64%"
+        android:onClick="ans5Click"
+        android:textSize="30sp"
+        app:layout_marginTopPercent="67.5%"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/buttonans6"
+        android:background="@drawable/img_round"
+        app:layout_heightPercent="7%"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:onClick="ans6Click"
+        app:layout_marginLeftPercent="77%"
+        app:layout_marginTopPercent="67.5%"
+        app:layout_widthPercent="11%" />
+
+    <Button
+        android:id="@+id/buttonmovie"
+        app:layout_heightPercent="5%"
+        app:layout_widthPercent="8%"
+        android:onClick="moviesClick"
+        android:background="@drawable/movie"
+        app:layout_marginLeftPercent="68%"
+        app:layout_marginTopPercent="3%" />
+
+    <Button
+        android:id="@+id/buttonnames"
+        app:layout_heightPercent="5%"
+        app:layout_widthPercent="8%"
+        android:onClick="namesClick"
+        android:background="@drawable/names"
+        app:layout_marginLeftPercent="82%"
+        app:layout_marginTopPercent="3%" />
+
+
+</android.support.percent.PercentRelativeLayout>
+

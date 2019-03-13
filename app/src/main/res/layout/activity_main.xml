@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdfdfe"
+    tools:context="com.timmyyeol.shipnamesslash.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_red"
+        android:onClick="Start"
+        android:text="START"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:layout_marginTopPercent="25%"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="80%" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_blue"
+        android:text="CONTACTS AND INFO"
+        android:onClick="ContClick"
+        android:textAlignment="center"
+        app:layout_marginTopPercent="65%"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="80%" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_yellow"
+        android:text="+ ADD YOUR PAIRING +"
+        android:onClick="AddClick"
+        android:textAlignment="center"
+        app:layout_marginTopPercent="45%"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="80%" />
+
+
+
+</android.support.percent.PercentRelativeLayout>

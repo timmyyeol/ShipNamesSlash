@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdfdfe"
+    tools:context="com.timmyyeol.shipnamesslash.AddActivity">
+
+    <EditText
+        android:id="@+id/textView"
+        app:layout_widthPercent="90%"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/dialog"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:textAllCaps="true"
+        android:hint="PAIRING NAME*"
+        android:textSize="28sp"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="7%" />
+
+    <EditText
+        android:id="@+id/textView2"
+        app:layout_widthPercent="90%"
+        android:background="@drawable/dialog"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textCursorDrawable="@null"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        app:layout_heightPercent="10%"
+        android:inputType="text"
+        android:hint="THE NAME OF THE FILM/ANIME/GROUP*"
+        android:textSize="28sp"
+        app:layout_marginTopPercent="22%" />
+
+    <EditText
+        android:id="@+id/textView3"
+        app:layout_widthPercent="90%"
+        android:background="@drawable/round_orange"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:textCursorDrawable="@null"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        app:layout_heightPercent="10%"
+        android:hint="DO YOU WANT FEM VERSION OF THIS GAME?"
+        android:textSize="28sp"
+        app:layout_marginTopPercent="37%" />
+
+    <EditText
+        android:id="@+id/textView4"
+        app:layout_widthPercent="90%"
+        android:background="@drawable/round_orange"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:inputType="text"
+        app:layout_heightPercent="10%"
+        android:textCursorDrawable="@null"
+        android:hint="DO YOU WANT GETERO VERSION OF THIS GAME?"
+        android:textSize="28sp"
+        app:layout_marginTopPercent="52%" />
+
+    <EditText
+        android:id="@+id/textView5"
+        app:layout_widthPercent="90%"
+        android:background="@drawable/round_yellow"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        app:layout_heightPercent="10%"
+        android:hint="YOUR WISHES"
+        android:textCursorDrawable="@null"
+        android:textSize="28sp"
+        app:layout_marginTopPercent="67%" />
+
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_red"
+        android:onClick="Sent"
+        android:text="SEND"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:layout_marginTopPercent="82%"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="90%" />
+
+
+</android.support.percent.PercentRelativeLayout>

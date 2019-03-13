@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdfdfe">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_yellow"
+        android:onClick="gmailClick"
+        android:text="timmyyeol@gmail.com"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="25%"
+        app:layout_widthPercent="80%" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_orange"
+        android:text="VK.COM"
+        android:onClick="vkClick"
+        android:textAlignment="center"
+        app:layout_marginTopPercent="45%"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="80%" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_red"
+        android:text="Privacy Policy"
+        android:onClick="PpClick"
+        android:textAlignment="center"
+        app:layout_marginTopPercent="65%"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="80%" />
+
+
+
+</android.support.percent.PercentRelativeLayout>
